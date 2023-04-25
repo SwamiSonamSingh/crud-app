@@ -1,0 +1,89 @@
+.ui-add-users{
+  border: solid 1px rgba(144, 151, 141, 0.21);
+  border-radius: 4px;
+  margin: 2rem;
+  height: 330px;
+  &__head{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(3, 160, 225, 0.2);
+    border-radius: 4px;
+    justify-content: space-between;
+    &__title{
+      font-family: Nunito;
+      font-size: 22px;
+      font-weight: 600;
+      padding: 8px 20px;
+    }
+    &__icon{
+      color: #015477;
+      margin-right: 2rem;
+      padding: 2px 30px;
+      border: 2px solid #015477;
+      border-radius: 4px;
+      background-color: white;
+    }
+  }
+  &__form{
+    border-top: 1px solid lightgray;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    &__name,&__age,
+    &__address,&__contact,&__email{
+      height: 5rem;
+      margin-right: 3rem;
+      display: flex;
+      flex-direction: column;
+      &__label{
+        font-family: Nunito;
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+      &__field{
+        text-indent: 5px;
+        font-size: 16px;
+        width: 392px;
+        height: 35px;
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        outline: none;
+      }
+      span{
+        font-family: Nunito;
+        color: red;
+        opacity: 0.8;
+      }
+    }
+  }
+  &__action{
+    &__false{
+      border: 2px solid #015477;
+      font-family: Nunito;
+      font-size: 14px;
+      padding: 7px 2rem;
+      border-radius: 4px;
+      background-color: #015477;
+      color: #ffff;
+      width: fit-content;
+      float: right;
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+    &__true{
+      font-family: Nunito;
+      font-size: 14px;
+      padding: 7px 2rem;
+      border-radius: 4px;
+      background-color: lightgray;
+      color: #000;
+      opacity: 0.5;
+      width: fit-content;
+      float: right;
+      margin-right: 2rem;
+      cursor: not-allowed;
+    }
+  }
+}

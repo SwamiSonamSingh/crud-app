@@ -1,0 +1,114 @@
+.ui-user-details{
+  border: solid 1px rgba(144, 151, 141, 0.21);
+  border-radius: 4px;
+  margin: 2rem;
+  min-height: 330px;
+  &__noData{
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0px;
+  }
+  &__heading{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(3, 160, 225, 0.2);
+    border-radius: 4px;
+    justify-content: space-between;
+    &__title{
+      font-family: Nunito;
+      font-size: 22px;
+      font-weight: 600;
+      padding: 8px 20px;
+    }
+    &__action{
+      color: #015477;
+      margin-right: 2rem;
+      padding: 2px 30px;
+      border: 2px solid #015477;
+      border-radius: 4px;
+      background-color: white;
+    }
+  }
+  &__table{
+    border-top: 1px solid lightgray;
+    &__columns{
+      background-color: rgba(3, 160, 225, 0.2);
+      font-family: Nunito;
+      margin: 1rem;
+      font-size: 15px;
+      border-radius: 4px;
+      padding: 10px 5px;
+      font-weight: bold;
+      display: flex;
+      &__userId{
+        margin-left: 1rem;
+      }
+      &__userId,&__age,&__actions{
+        width: 150px;
+      }
+      &__name{
+        width: 200px;
+      }
+      &__email{
+        width: 200px;
+      }
+      &__address{
+        width: 200px;
+      }
+      &__contactNumber{
+        width: 200px;
+      }
+    }
+    &__data{
+      display: flex;
+      font-family: Nunito;
+      margin: 1rem;
+      font-size: 15px;
+      border-radius: 4px;
+      padding: 5px;
+      font-weight: bold;
+      &__userId{
+        margin-left: 1rem;
+      }
+      &__userId,&__age,&__actions{
+        width: 150px;
+      }
+      &__name{
+        word-wrap: break-word;
+        width: 200px;
+      }
+      &__email{
+        word-wrap: break-word;
+        width: 200px;
+      }
+      &__address{
+        word-wrap: break-word;
+        width: 200px;
+      }
+      &__contactNumber{
+        width: 200px;
+      }
+      &__actions{
+        display: flex;
+        height: 34px;
+        &__edit{
+          margin-right: 1rem;
+        }
+        &__edit,&__delete{
+          background-color:rgba(3, 160, 225, 0.1);
+          border-radius: 4px;
+          color: #015477;
+          svg{
+            padding: 5px 5px;
+          }
+        }
+        &__delete{
+          svg{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

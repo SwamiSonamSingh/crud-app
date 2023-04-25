@@ -1,0 +1,111 @@
+/*!*******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/App.scss ***!
+  \*******************************************************************************************************/
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Create.scss ***!
+  \**********************************************************************************************************/
+.create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.create__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.create__form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.create__form-group__label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.create__input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 35px;
+}
+.create__button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.create__button:hover {
+  background-color: #0069d9;
+}
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/read.scss ***!
+  \********************************************************************************************************/
+.read__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.read__header {
+  display: flex;
+  justify-content: space-between;
+}
+.read__header__button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.read__table th,
+.read__table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/update.scss ***!
+  \**********************************************************************************************************/
+.update__input-container {
+  margin-bottom: 1rem;
+}
+
+.update__label {
+  display: inline-block;
+  width: 8rem;
+}
+
+.update__input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.update__button {
+  margin-right: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.update__button:hover {
+  background-color: #0069d9;
+}
