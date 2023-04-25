@@ -49,7 +49,7 @@ const Read = () => {
         <div className="ui-user-details">
             <div className="ui-user-details__heading">
                 <div className="ui-user-details__heading__title">User Details</div>
-                <Link to="/crud-app">
+                <Link to="/">
                     <div className="ui-user-details__heading__action">
                         <AddCircleOutlineRoundedIcon />
                     </div>

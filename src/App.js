@@ -11,7 +11,7 @@ const App = () => {
         <div className="app">
         <BrowserRouter>
             <Routes>
-                <Route  path="/crud-app" element={<Create />}></Route>
+                <Route  path="/" element={<Create />}></Route>
                 <Route  path="/details" element={<Read/>}></Route>
                 <Route  path="/update" element={<Update/>}></Route>
                 </Routes>
